@@ -1,7 +1,12 @@
+:root {
+  --primary-color: #8a2be2;
+  --secondary-color: white;
+  --padding-top: 50px;
+}
 .button-link {
   text-align: center;
-  color: white;
-  background-color: blueviolet;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 4px;
   padding: 15px 15px;
   text-decoration: none;
@@ -10,22 +15,35 @@ a:hover {
   color: black;
 }
 body {
-  color: white;
-  background-color: black;
+  color: var(--secondary-color);
+  background-color: rgb(23, 23, 23);
   font-family: "Source Code Pro", monospace;
 }
 
 .nav-link {
-  color: white;
+  color: var(--secondary-color);
   display: flex;
-  padding-top: 50px;
   margin-left: 25px;
+  padding-top: var(--padding-top);
 }
+
+.nav-link-active {
+  color: rgb(172, 36, 210);
+  text-decoration: none;
+  padding-top: var(--padding-top);
+  margin-left: 25px;
+  display: flex;
+}
+
 .nav-link:hover {
-  color: blueviolet;
+  color: var(--primary-color);
+}
+
+.nav-link-active:hover {
+  color: var(--primary-color);
 }
 .logo {
-  color: blueviolet;
+  color: var(--primary-color);
   margin-left: 25px;
   margin-top: 20px;
 }
@@ -33,13 +51,21 @@ h4 {
   font-size: 20px;
 }
 .initials {
+  font-size: 40px;
   margin-left: 45px;
+  font-family: "Allerta Stencil", sans-serif;
+  -webkit-text-stroke: 0.2px white;
 }
-.container {
+.container,
+h1,
+h2 {
   text-align: left;
   font-size: 55px;
   display: block;
   font-weight: bold;
+}
+h2 {
+  font-size: 30px;
 }
 .reach-me {
   margin-top: 50px;
@@ -47,12 +73,5 @@ h4 {
 }
 .icons {
   margin-left: 20px;
-  padding-top: 50px;
-}
-.nav-link-active {
-  color: pink;
-  text-decoration: none;
-  padding-top: 50px;
-  margin-left: 25px;
-  display: flex;
+  padding-top: var(--padding-top);
 }
