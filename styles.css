@@ -2,6 +2,7 @@
   --primary-color: #8a2be2;
   --secondary-color: white;
   --padding-top: 50px;
+  --body-font-family: "Source Code Pro", monospace;
 }
 .button-link {
   text-align: center;
@@ -17,7 +18,7 @@ a:hover {
 body {
   color: var(--secondary-color);
   background-color: rgb(23, 23, 23);
-  font-family: "Source Code Pro", monospace;
+  font-family: var(--body-font-family);
 }
 
 .nav-link {
