@@ -58,15 +58,14 @@ h4 {
   font-family: "Allerta Stencil", sans-serif;
   -webkit-text-stroke: 1px rgb(82, 80, 80);
 }
-.container-home,
+
 h2 {
-  text-align: left;
   font-size: 55px;
   display: flex;
   font-weight: bold;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 h3 {
   font-size: 25px;
@@ -88,9 +87,18 @@ img {
   padding-bottom: 50px;
 }
 .about-subHeading {
-  font-size: 28px;
+  font-size: 25px;
 }
 .about-heading {
-  font-size: 45px;
+  font-size: 36px;
   font-weight: bold;
+}
+.homeh1 {
+  font-weight: bold;
+}
+.container-work {
+  text-align: center;
+}
+.container {
+  margin-left: -40px;
 }
