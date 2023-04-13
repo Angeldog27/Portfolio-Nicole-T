@@ -1,0 +1,58 @@
+.button-link {
+  text-align: center;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 4px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+body {
+  color: white;
+  background-color: black;
+  font-family: "Source Code Pro", monospace;
+}
+
+.nav-link {
+  color: white;
+  display: flex;
+  padding-top: 50px;
+  margin-left: 25px;
+}
+.nav-link:hover {
+  color: blueviolet;
+}
+.logo {
+  color: blueviolet;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: 20px;
+}
+.initials {
+  margin-left: 45px;
+}
+.container {
+  text-align: left;
+  font-size: 55px;
+  display: block;
+  font-weight: bold;
+}
+.reach-me {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.icons {
+  margin-left: 20px;
+  padding-top: 50px;
+}
+.nav-link-active {
+  color: pink;
+  text-decoration: none;
+  padding-top: 50px;
+  margin-left: 25px;
+  display: flex;
+}
