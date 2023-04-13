@@ -58,16 +58,18 @@ h4 {
   font-family: "Allerta Stencil", sans-serif;
   -webkit-text-stroke: 1px rgb(82, 80, 80);
 }
-.container,
-h1,
+.container-home,
 h2 {
   text-align: left;
   font-size: 55px;
-  display: block;
+  display: flex;
   font-weight: bold;
 }
 h2 {
   font-size: 30px;
+}
+h3 {
+  font-size: 25px;
 }
 .reach-me {
   margin-top: 50px;
@@ -77,4 +79,18 @@ h2 {
   margin-left: 20px;
   padding-top: var(--padding-top);
   font-size: 25px;
+}
+img {
+  max-width: 40%;
+  border: #8a2be2;
+  margin-top: -130px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+.about-subHeading {
+  font-size: 28px;
+}
+.about-heading {
+  font-size: 45px;
+  font-weight: bold;
 }
