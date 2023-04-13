@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link-active {
-  color: rgb(172, 36, 210);
+  color: palevioletred;
   text-decoration: none;
   padding-top: var(--padding-top);
   margin-left: 25px;
@@ -47,6 +47,7 @@ body {
   color: var(--primary-color);
   margin-left: 25px;
   margin-top: 20px;
+  -webkit-text-stroke: 0.7px rgb(82, 80, 80);
 }
 h4 {
   font-size: 20px;
@@ -55,7 +56,7 @@ h4 {
   font-size: 40px;
   margin-left: 45px;
   font-family: "Allerta Stencil", sans-serif;
-  -webkit-text-stroke: 0.2px white;
+  -webkit-text-stroke: 1px rgb(82, 80, 80);
 }
 .container,
 h1,
@@ -75,4 +76,5 @@ h2 {
 .icons {
   margin-left: 20px;
   padding-top: var(--padding-top);
+  font-size: 25px;
 }
