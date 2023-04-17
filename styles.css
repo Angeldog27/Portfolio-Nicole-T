@@ -10,7 +10,7 @@
   color: black;
 }
 a:hover {
-  color: palevioletred;
+  color: #b24dbb;
 }
 a {
   color: white;
@@ -28,7 +28,8 @@ body {
 }
 
 .nav-link-active {
-  color: palevioletred;
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
   text-decoration: none;
   padding-top: var(--padding-top);
   margin-left: 25px;
@@ -45,7 +46,6 @@ body {
 .navbar {
   padding-top: 200px;
 }
-
 h4 {
   margin-left: -70px;
   width: 700px;
@@ -56,6 +56,7 @@ h2 {
   display: flex;
   font-size: 20px;
   margin-left: 80px;
+  font-weight: bold;
 }
 h3 {
   margin-left: -250px;
@@ -96,6 +97,7 @@ h6 {
 .icons {
   margin-left: 20px;
   font-size: 25px;
+  color: #b24dbb;
 }
 img {
   max-width: 40%;
@@ -116,6 +118,8 @@ img {
   font-weight: var(--font-weight);
   margin-left: 80px;
   margin-top: var(--margin-top);
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
 }
 
 .heading {
@@ -123,6 +127,8 @@ img {
   margin-left: 140px;
   color: var(--secondary-color);
   padding-top: 180px;
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
 }
 .headingC1 {
   font-weight: var(--font-weight);
@@ -130,6 +136,8 @@ img {
   color: var(--secondary-color);
   padding-top: 180px;
   margin-top: 50px;
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
 }
 
 .work-heading {
@@ -137,6 +145,8 @@ img {
   margin-left: 390px;
   font-weight: var(--font-weight);
   font-size: 30px;
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
 }
 .container {
   margin-left: -100px;
@@ -246,6 +256,8 @@ img {
   font-weight: bolder;
   font-size: 30px;
   padding-left: 70px;
+  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+  color: #b24dbb;
 }
 .weather-title {
   padding-top: 50px;
