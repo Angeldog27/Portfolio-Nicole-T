@@ -4,6 +4,7 @@
   --padding-top: 50px;
   --body-font-family: "Source Code Pro", monospace;
   --font-weight: bold;
+  --margin-top: 210px;
 }
 .button-link:hover {
   color: black;
@@ -56,6 +57,14 @@ h2 {
   font-size: 20px;
   margin-left: 80px;
 }
+h3 {
+  margin-left: -250px;
+  text-align: center;
+  color: var(--primary-color);
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
 h5 {
   margin-top: -128px;
   padding-bottom: 30px;
@@ -70,6 +79,10 @@ h6 {
   color: white;
   text-align: center;
   width: 20%;
+}
+.contact-links {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 .button-link-about {
   text-decoration: none;
@@ -102,18 +115,26 @@ img {
   font-size: 35px;
   font-weight: var(--font-weight);
   margin-left: 80px;
-  margin-top: 180px;
+  margin-top: var(--margin-top);
 }
-.homeh1 {
+
+.heading {
   font-weight: var(--font-weight);
   margin-left: 140px;
   color: var(--secondary-color);
   padding-top: 180px;
 }
+.headingC1 {
+  font-weight: var(--font-weight);
+  text-align: center;
+  color: var(--secondary-color);
+  padding-top: 180px;
+  margin-top: 50px;
+}
 
 .work-heading {
-  margin-top: 180px;
-  margin-left: 280px;
+  margin-top: var(--margin-top);
+  margin-left: 390px;
   font-weight: var(--font-weight);
   font-size: 30px;
 }
@@ -137,14 +158,13 @@ img {
     font-size: 30px;
     font-weight: var(--font-weight);
   }
-  .homeh1,
+  .heading,
   .index-subSection {
     margin-top: 50px;
   }
   .about-heading,
   .about-subHeading,
-  .work-heading,
-  .about-heading {
+  .work-heading {
     margin-left: 115px;
   }
   .about-subHeading {
@@ -155,31 +175,46 @@ img {
   h4 {
     width: 600px;
   }
+  h3 {
+    margin-left: -30px;
+    margin-bottom: 80px;
+  }
   h5 {
     margin-left: -290px;
     width: 100%;
   }
+  h6 {
+    margin-left: 135px;
+    width: 50%;
+  }
   .croissant-title {
-    margin-left: -550px;
+    margin-left: -5px;
+    margin-top: -25px;
   }
   .weather-link,
-  .bat-link,
-  .croissant-link {
+  .bat-link {
     margin-left: -200px;
   }
+  .croissant-link {
+    margin-left: -225px;
+  }
   .croissant-info {
-    margin-top: -20px;
     width: 100%;
   }
   .bat-info {
     width: 100%;
+  }
+  .headingC1 {
+    margin-left: 90px;
+    width: 100%;
+    padding-bottom: 30px;
   }
 }
 .croissant-info {
   margin-top: 80px;
 }
 .croissant-img {
-  margin-top: 210px;
+  margin-top: var(--margin-top);
   width: 500px;
 }
 .container-img {
@@ -212,8 +247,14 @@ img {
   font-size: 30px;
   padding-left: 70px;
 }
+.weather-title {
+  padding-top: 50px;
+}
+.bat-title {
+  padding-top: -100px;
+}
 .bat-info {
-  margin-top: 85px;
+  margin-top: 50px;
 }
 .bat-img {
   width: 500px;
@@ -222,4 +263,13 @@ img {
 }
 .weather-img {
   width: 500px;
+}
+hr {
+  position: relative;
+  top: 10px;
+  border: none;
+  height: 12px;
+  background: black;
+  width: 70%;
+  margin: 0;
 }
