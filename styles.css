@@ -60,6 +60,22 @@ h5 {
   margin-top: -128px;
   padding-bottom: 30px;
 }
+h6 {
+  margin-top: 25px;
+  margin-left: 318px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  width: 20%;
+}
+.button-link-about {
+  text-decoration: none;
+  font-weight: var(--font-weight);
+}
+
 .reach-me {
   margin-top: 50px;
   margin-left: 40px;
@@ -98,6 +114,8 @@ img {
 .work-heading {
   margin-top: 180px;
   margin-left: 280px;
+  font-weight: var(--font-weight);
+  font-size: 30px;
 }
 .container {
   margin-left: -100px;
@@ -107,23 +125,66 @@ img {
   color: var(--secondary-color);
 }
 @media (max-width: 768px) {
-  .img-me {
+  .img-me,
+  .weather-img,
+  .croissant-img,
+  .bat-img {
     display: none;
   }
   .about-heading {
     margin-left: -65px;
     padding-top: 20px;
+    font-size: 30px;
+    font-weight: var(--font-weight);
   }
+  .homeh1,
+  .index-subSection {
+    margin-top: 50px;
+  }
+  .about-heading,
+  .about-subHeading,
+  .work-heading,
+  .about-heading {
+    margin-left: 115px;
+  }
+  .about-subHeading {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  h4 {
+    width: 600px;
+  }
+  h5 {
+    margin-left: -290px;
+    width: 100%;
+  }
+  .croissant-title {
+    margin-left: -550px;
+  }
+  .weather-link,
+  .bat-link,
+  .croissant-link {
+    margin-left: -200px;
+  }
+  .croissant-info {
+    margin-top: -20px;
+    width: 100%;
+  }
+  .bat-info {
+    width: 100%;
+  }
+}
+.croissant-info {
+  margin-top: 80px;
+}
+.croissant-img {
+  margin-top: 210px;
+  width: 500px;
 }
 .container-img {
   margin-left: 310px;
   margin-top: 150px;
-}
-
-.about-btn {
-  margin-left: 318px;
-  margin-top: 40px;
-  padding-bottom: 40px;
 }
 
 .weather-link,
@@ -134,9 +195,16 @@ img {
   padding: 20px 15px;
   text-decoration: none;
   background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
+  font-weight: var(--font-weight);
 }
+.weather-link:hover,
+.croissant-link:hover,
+.bat-link:hover,
+.button-link-about:hover {
+  color: black;
+}
+
 .weather-title,
 .bat-title,
 .croissant-title {
@@ -145,21 +213,13 @@ img {
   padding-left: 70px;
 }
 .bat-info {
-  margin-top: 2px;
+  margin-top: 85px;
 }
 .bat-img {
-  width: 550px;
+  width: 500px;
   padding-top: 135px;
   padding-left: 45px;
 }
-.croissant-img {
-  margin-left: -50px;
-  padding-top: 140px;
-}
-.croissant-info {
-  padding-left: 545px;
-  margin-top: -370px;
-}
-.croissant-link {
-  margin-left: 540px;
+.weather-img {
+  width: 500px;
 }
