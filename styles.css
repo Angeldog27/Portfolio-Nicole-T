@@ -159,6 +159,11 @@ img {
   color: #cb6ded;
   margin-top: var(--margin-top-titles);
 }
+.work-subheading {
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: -150px;
+}
 .container {
   margin-left: -100px;
 }
@@ -188,18 +193,23 @@ img {
   }
   .index-subSection {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 70px;
   }
 
   .work-heading {
-    margin-top: 250px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-left: 80px;
+    color: darkmagenta;
   }
   .about-subHeading {
     width: 300px;
     padding-right: -30px;
     margin-left: 150px;
     padding-top: 200px;
+  }
+  h2 {
+    width: 400px;
+    margin-left: 10px;
   }
   h4 {
     display: none;
@@ -289,10 +299,9 @@ img {
   .contact-links {
     margin-left: -2px;
   }
-  .reach-me {
-    margin-left: -200px;
-    font-size: 10px;
-    width: 100%;
+  a.button-link {
+    margin-left: 55px;
+    font-size: 15px;
   }
 }
 @media (min-width: 768px) {
