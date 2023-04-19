@@ -4,53 +4,54 @@
   --padding-top: 50px;
   --body-font-family: "Source Code Pro", monospace;
   --font-weight: bold;
-  --margin-top: 210px;
+  --margin-top-titles: -20px;
 }
 .button-link:hover {
-  color: black;
+  color: darkmagenta;
 }
 a:hover {
-  color: #b24dbb;
+  color: darkmagenta;
 }
 a {
   color: white;
 }
 body {
   color: var(--secondary-color);
-  background-color: rgb(23, 23, 23);
+  background-image: url(/images/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
+  background-size: cover;
   font-family: var(--body-font-family);
 }
 .nav-link {
   color: var(--secondary-color);
-  display: flex;
   margin-left: 25px;
   padding-top: var(--padding-top);
+  font-size: 20px;
+  margin-top: -20px;
 }
 
 .nav-link-active {
-  text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: darkmagenta;
+  font-weight: bolder;
   text-decoration: none;
-  padding-top: var(--padding-top);
   margin-left: 25px;
-  display: flex;
+  font-size: 20px;
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: darkmagenta;
+  font-weight: bolder;
 }
 
 .nav-link-active:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
-.navbar {
-  padding-top: 200px;
-}
+
 h4 {
   margin-left: -70px;
   width: 700px;
   padding-top: 53px;
   padding-left: 10px;
+  margin-bottom: 30px;
 }
 h2 {
   display: flex;
@@ -61,7 +62,7 @@ h2 {
 h3 {
   margin-left: -250px;
   text-align: center;
-  color: var(--primary-color);
+  color: darkmagenta;
   line-height: 50px;
   margin-top: 20px;
   margin-bottom: 35px;
@@ -85,19 +86,28 @@ h6 {
   color: var(--secondary-color);
   text-decoration: none;
 }
+.contact-links:hover {
+  color: #cb6ded;
+}
 .button-link-about {
   text-decoration: none;
   font-weight: var(--font-weight);
+  padding-bottom: 100px;
 }
 
 .reach-me {
   margin-top: 50px;
   margin-left: 40px;
 }
-.icons {
+.icons,
+.icons-work,
+.icons-contact {
   margin-left: 20px;
   font-size: 25px;
-  color: #b24dbb;
+  color: darkmagenta;
+}
+.icons-contact {
+  margin-left: 8px;
 }
 img {
   max-width: 40%;
@@ -112,48 +122,50 @@ img {
 }
 .about-subHeading {
   font-size: 20px;
+  margin-left: 350px;
+  margin-top: -150px;
 }
 .about-heading {
   font-size: 35px;
   font-weight: var(--font-weight);
-  margin-left: 80px;
-  margin-top: var(--margin-top);
+  margin-left: 40px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: #cb6ded;
+  margin-top: 20px;
 }
 
 .heading {
   font-weight: var(--font-weight);
-  margin-left: 140px;
+  margin-left: 350px;
   color: var(--secondary-color);
-  padding-top: 180px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: #cb6ded;
+  margin-top: -250px;
 }
 .headingC1 {
   font-weight: var(--font-weight);
   text-align: center;
   color: var(--secondary-color);
-  padding-top: 180px;
-  margin-top: 50px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: #cb6ded;
+  margin-top: var(--margin-top-titles);
 }
 
 .work-heading {
-  margin-top: var(--margin-top);
   margin-left: 390px;
   font-weight: var(--font-weight);
   font-size: 30px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: #cb6ded;
+  margin-top: var(--margin-top-titles);
 }
 .container {
   margin-left: -100px;
 }
 .index-subSection {
-  margin-left: -45px;
+  margin-left: 250px;
   color: var(--secondary-color);
+  margin-top: -150px;
 }
 @media (max-width: 768px) {
   .img-me,
@@ -163,42 +175,50 @@ img {
     display: none;
   }
   .about-heading {
-    margin-left: -65px;
-    padding-top: 20px;
+    margin-left: -20px;
+    padding-top: 100px;
     font-size: 30px;
     font-weight: var(--font-weight);
+    color: darkmagenta;
   }
-  .heading,
+  .heading {
+    margin-top: 300px;
+    color: darkmagenta;
+    margin-left: 100px;
+  }
   .index-subSection {
-    margin-top: 50px;
-  }
-  .about-heading,
-  .about-subHeading,
-  .work-heading {
-    margin-left: 115px;
-  }
-  .about-subHeading {
-    width: 100%;
-    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
   }
 
+  .work-heading {
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+  .about-subHeading {
+    width: 300px;
+    padding-right: -30px;
+    margin-left: 150px;
+    padding-top: 200px;
+  }
   h4 {
-    width: 600px;
+    display: none;
   }
   h3 {
-    margin-left: -30px;
+    margin-left: -80px;
     margin-bottom: 80px;
+    font-weight: bolder;
   }
   h5 {
     margin-left: -290px;
     width: 100%;
   }
   h6 {
-    margin-left: 135px;
+    margin-left: 85px;
     width: 50%;
   }
   .croissant-title {
-    margin-left: -5px;
+    margin-left: -45px;
     margin-top: -25px;
   }
   .weather-link,
@@ -208,6 +228,7 @@ img {
   .croissant-link {
     margin-left: -225px;
   }
+
   .croissant-info {
     width: 100%;
   }
@@ -215,23 +236,84 @@ img {
     width: 100%;
   }
   .headingC1 {
-    margin-left: 90px;
+    margin-left: 70px;
     width: 100%;
     padding-bottom: 30px;
+    margin-top: 200px;
+    color: darkmagenta;
+  }
+  .icons {
+    text-align: center;
+    margin-left: -100px;
+  }
+  .icons-work {
+    text-align: center;
+    font-size: 25px;
+    margin-left: -300px;
+  }
+  .icons-contact {
+    margin-left: 170px;
+  }
+
+  .mobile {
+    margin-left: -50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -20px;
+  }
+  nav li {
+    display: inline;
+  }
+  .small-nav {
+    text-decoration: none;
+  }
+
+  .small-nav-active {
+    text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .large-screen {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .weather-title,
+  .bat-title,
+  .croissant-title {
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  .contact-links {
+    margin-left: -2px;
+  }
+  .reach-me {
+    margin-left: -200px;
+    font-size: 10px;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .headingC1 {
+    padding-top: 20px;
   }
 }
 .croissant-info {
   margin-top: 80px;
 }
 .croissant-img {
-  margin-top: var(--margin-top);
+  margin-top: 210px;
   width: 500px;
 }
 .container-img {
   margin-left: 310px;
-  margin-top: 150px;
+  margin-top: 50px;
 }
-
 .weather-link,
 .croissant-link,
 .bat-link,
@@ -243,11 +325,14 @@ img {
   color: white;
   font-weight: var(--font-weight);
 }
+.button-link {
+  margin-left: 300px;
+}
 .weather-link:hover,
 .croissant-link:hover,
 .bat-link:hover,
 .button-link-about:hover {
-  color: black;
+  color: #cb6ded;
 }
 
 .weather-title,
@@ -257,7 +342,7 @@ img {
   font-size: 30px;
   padding-left: 70px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #b24dbb;
+  color: darkmagenta;
 }
 .weather-title {
   padding-top: 50px;
