@@ -262,7 +262,7 @@ img {
     margin-left: -300px;
   }
   .icons-contact {
-    margin-left: 170px;
+    margin-left: 130px;
   }
 
   .mobile {
@@ -369,6 +369,8 @@ img {
 }
 .weather-img {
   width: 500px;
+  padding-top: 30px;
+  margin-left: -15px;
 }
 hr {
   position: relative;
@@ -378,4 +380,7 @@ hr {
   background: black;
   width: 70%;
   margin: 0;
+}
+.background-vector {
+  font-size: 10px;
 }
