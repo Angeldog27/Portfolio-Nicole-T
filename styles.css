@@ -72,8 +72,8 @@ h5 {
   padding-bottom: 30px;
 }
 h6 {
-  margin-top: 25px;
-  margin-left: 318px;
+  margin-top: 35px;
+  margin-left: 250px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -130,8 +130,8 @@ img {
   font-weight: var(--font-weight);
   margin-left: 40px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #cb6ded;
-  margin-top: 20px;
+  color: darkmagenta;
+  margin-top: 30px;
 }
 
 .heading {
@@ -156,7 +156,7 @@ img {
   font-weight: var(--font-weight);
   font-size: 30px;
   text-shadow: 5px 5px 10px rgba(178, 77, 187, 0.4);
-  color: #cb6ded;
+  color: darkmagenta;
   margin-top: var(--margin-top-titles);
 }
 .work-subheading {
@@ -171,6 +171,12 @@ img {
   margin-left: 250px;
   color: var(--secondary-color);
   margin-top: -150px;
+}
+.croissant-img {
+  padding-bottom: 350px;
+}
+footer {
+  margin-top: 300px;
 }
 @media (max-width: 768px) {
   .img-me,
@@ -205,7 +211,7 @@ img {
     width: 300px;
     padding-right: -30px;
     margin-left: 150px;
-    padding-top: 200px;
+    padding-top: 150px;
   }
   h2 {
     width: 400px;
@@ -215,7 +221,7 @@ img {
     display: none;
   }
   h3 {
-    margin-left: -80px;
+    margin-left: -110px;
     margin-bottom: 80px;
     font-weight: bolder;
   }
@@ -246,15 +252,15 @@ img {
     width: 100%;
   }
   .headingC1 {
-    margin-left: 70px;
+    margin-left: 50px;
     width: 100%;
     padding-bottom: 30px;
-    margin-top: 200px;
+    margin-top: 100px;
     color: darkmagenta;
   }
   .icons {
     text-align: center;
-    margin-left: -100px;
+    margin-left: -300px;
   }
   .icons-work {
     text-align: center;
@@ -302,6 +308,15 @@ img {
   a.button-link {
     margin-left: 55px;
     font-size: 15px;
+  }
+  .contact-box {
+    display: none;
+  }
+  .frameworks {
+    margin-left: -280px;
+    margin-top: 40px;
+    padding-left: 225px;
+    margin-right: -90px;
   }
 }
 @media (min-width: 768px) {
@@ -383,4 +398,39 @@ hr {
 }
 .background-vector {
   font-size: 10px;
+}
+.contact-box {
+  background-color: #cb6ded;
+  margin-left: -550px;
+  margin-right: 300px;
+}
+.subpara {
+  font-size: 30px;
+  margin-top: 10px;
+  color: darkmagenta;
+}
+.button-link-contact {
+  margin-left: 600px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  font-weight: var(--font-weight);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.button-link-contact:hover {
+  color: #cb6ded;
+}
+h1 {
+  margin-left: 20px;
+}
+.inquiry-button {
+  margin-top: -80px;
+  margin-right: 20px;
+}
+.container-technologies {
+  margin-left: 250px;
+  margin-top: -30px;
 }
