@@ -262,9 +262,8 @@ footer {
     margin-left: 150px;
   }
   .icons-work {
-    text-align: center;
     font-size: 25px;
-    margin-left: -310px;
+    margin-left: 150px;
   }
   .icons-contact {
     margin-left: 130px;
@@ -321,7 +320,7 @@ footer {
     margin-left: -60px;
   }
   .background-vector-work {
-    margin-left: 10px;
+    margin-left: -60px;
     font-size: 10px;
   }
 }
