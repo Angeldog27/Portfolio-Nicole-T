@@ -259,13 +259,12 @@ footer {
     color: darkmagenta;
   }
   .icons {
-    text-align: center;
-    margin-left: -300px;
+    margin-left: 150px;
   }
   .icons-work {
     text-align: center;
     font-size: 25px;
-    margin-left: -300px;
+    margin-left: -320px;
   }
   .icons-contact {
     margin-left: 130px;
@@ -317,6 +316,13 @@ footer {
     margin-top: 40px;
     padding-left: 225px;
     margin-right: -90px;
+  }
+  .background-vector {
+    margin-left: -60px;
+  }
+  .background-vector-work {
+    margin-left: 10px;
+    font-size: 10px;
   }
 }
 @media (min-width: 768px) {
@@ -396,9 +402,11 @@ hr {
   width: 70%;
   margin: 0;
 }
-.background-vector {
+.background-vector,
+.background-vector-work {
   font-size: 10px;
 }
+
 .contact-box {
   background-color: #cb6ded;
   margin-left: -550px;
