@@ -20,6 +20,7 @@ body {
   background-image: url(images/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
   background-size: cover;
   font-family: var(--body-font-family);
+  overflow: hidden;
 }
 .nav-link {
   color: var(--secondary-color);
