@@ -17,23 +17,19 @@ a {
 }
 body {
   color: var(--secondary-color);
-  background-image: url(/images/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
+  background-image: url(images/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
   background-size: cover;
   font-family: var(--body-font-family);
 }
 .nav-link {
   color: var(--secondary-color);
-  margin-left: 25px;
-  padding-top: var(--padding-top);
   font-size: 20px;
-  margin-top: -20px;
 }
 
 .nav-link-active {
   color: darkmagenta;
   font-weight: bolder;
   text-decoration: none;
-  margin-left: 25px;
   font-size: 20px;
 }
 
@@ -44,6 +40,10 @@ body {
 
 .nav-link-active:hover {
   color: var(--secondary-color);
+}
+
+.nav-item {
+  padding-top: 20px;
 }
 
 h3 {
