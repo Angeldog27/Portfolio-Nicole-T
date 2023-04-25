@@ -20,7 +20,6 @@ body {
   background-image: url(images/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
   background-size: cover;
   font-family: var(--body-font-family);
-  overflow: hidden;
 }
 .nav-link {
   color: var(--secondary-color);
@@ -186,6 +185,10 @@ footer {
   .bat-img {
     display: none;
   }
+  .reach-me {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
   .about-heading {
     margin-left: -20px;
     padding-top: 100px;
@@ -196,11 +199,18 @@ footer {
   .heading {
     margin-top: 200px;
     color: darkmagenta;
-    margin-left: 100px;
+    margin-left: 0px;
+    padding-right: 0;
   }
   .index-subSection {
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row {
+    padding: 0;
+    margin: 0;
   }
 
   .work-heading {
@@ -209,14 +219,15 @@ footer {
     color: darkmagenta;
   }
   .about-subHeading {
-    width: 300px;
-    padding-right: -30px;
-    margin-left: 150px;
-    padding-top: 150px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+  .container {
+    margin-left: 0;
   }
   h2 {
-    width: 400px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   h3 {
     display: none;
@@ -226,15 +237,13 @@ footer {
   }
 
   h4 {
-    margin-left: -270px;
-    width: 700px;
+    margin-left: 0px;
     padding-top: 53px;
     padding-left: 10px;
     margin-bottom: 30px;
   }
 
   h5 {
-    margin-left: -290px;
     width: 100%;
   }
   h6 {
@@ -247,10 +256,10 @@ footer {
   }
   .weather-link,
   .bat-link {
-    margin-left: -200px;
+    margin-left: 0px;
   }
   .croissant-link {
-    margin-left: -225px;
+    margin-left: 0px;
   }
 
   .croissant-info {
@@ -319,10 +328,10 @@ footer {
     display: none;
   }
   .frameworks {
-    margin-left: -280px;
-    margin-top: 40px;
-    padding-left: 225px;
-    margin-right: -90px;
+    margin-left: 0;
+    margin-top: 70px;
+    padding-left: 0;
+    margin-right: 0px;
   }
   .background-vector {
     margin-left: -60px;
@@ -330,6 +339,14 @@ footer {
   .background-vector-work {
     margin-left: -60px;
     font-size: 10px;
+  }
+  .container-technologies {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+  .container-img {
+    margin-left: 0 !important;
+    margin-top: 50px;
   }
 }
 @media (min-width: 768px) {
